@@ -116,6 +116,11 @@ main {
     height: 610px;
 }
 
+#preparation img {
+    width: 300px;
+    height: 227px;
+}
+
 #airport {
     height: 1250px;
 }
@@ -253,10 +258,21 @@ div.detail ul li {
     margin: auto;
 }
 
+#brooklyn img {
+    width: 940px;
+    height: 457px;
+}
+
 #manhattan, #queens {
     display: inline-block;
     margin: 10px 30px 80px 0;
 }
+
+#manhattan img , #queens img {
+    width: 455px;
+    height: 457px;
+}
+
 
 #queens {
     margin-right: 0;
@@ -337,6 +353,11 @@ div.info h3 {
 #wechat p {
     font-size: 1.5em;
     color: rgb(52,78,107);
+}
+
+#wechat img {
+    width: 228px;
+    height: 318px;
 }
 
 #contact {
