@@ -1,0 +1,351 @@
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: 1050px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    width: 100%;
+    min-width: 1050px;
+    height: 120px;
+    background-color: rgb(27,40,52);
+    position: fixed;
+    z-index: 1000;
+}
+
+#logo {
+    height: 80px;
+    width: 300px;
+    background-color: rgb(236,200,0);
+    padding: 20px 40px;
+}
+
+#logo img {
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    border: 5px solid #fff;
+    padding: 5px;
+}
+
+#logo h1 {
+    display: inline-block;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+#navigation {
+    float: right;
+    background-color: rgb(183,203,226);
+    width: 608px;
+    height: 40px;
+    margin: 60px 20px 0 0;
+}
+
+#navigation ul {
+    list-style: none;
+    height: inherit;
+    font-size: 0px;
+}
+
+#navigation ul li {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+#navigation ul li:hover {
+    background-color: rgb(236,200,0);
+}
+
+main {
+    margin: auto;
+    padding-top: 120px;
+}
+
+#background {
+    width: 100%;
+    height: 890px;
+    background-image: url(image/NYC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -1000;
+}
+
+#mainPage {
+    text-align: center;
+    height: 740px;
+    padding-top: 150px;
+    letter-spacing: 3px;
+}
+
+#mainPage h1{
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    border: 10px solid #000;
+    font-size: 4.2em;
+}
+
+#mainPage i {
+    margin-top: 50px;
+    font-size: 3.5em;
+}
+
+#preparation, #airport, #rental, #simCard, #contact {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#preparation {
+    height: 610px;
+}
+
+#airport {
+    height: 1250px;
+}
+
+#rental {
+    height: 1180px;
+}
+
+#simCard {
+    height: 330px;
+}
+
+#contact {
+    height: 660px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #aaa;
+}
+
+span.bar {
+    display: block;
+    width: 100px;
+    height: 10px;
+    margin: 5px auto;
+    margin-bottom: 40px;
+    background-color: rgb(236,200,0);
+}
+
+div.detail {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(246,246,246);
+    text-align: left;
+}
+
+h3 {
+    margin: 20px 0 30px 30px;
+    font-size: 1.5em;
+    color: rgb(52,78,107);
+}
+
+div.detail ul {
+    list-style: none;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+
+div.detail ul li {
+    font-size: 0.95em;
+    line-height: 1.5em;
+}
+
+#airport img {
+    display: block;
+    margin: auto;
+}
+
+#APs {
+    width: 950px;
+    margin: auto;
+}
+
+#APs .detail {
+    margin-top: 15px;
+}
+
+#APs .detail>p {
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+#APs .detail span {
+    font-weight: lighter;
+}
+
+#APs .detail ul {
+    list-style: disc;
+    margin: 0 30px;
+}
+
+#JFK {
+    height: 560px;
+    margin-left: 0;
+}
+
+#otherAP {
+    float: right;
+    width: 650px;
+}
+
+#Newark, #LaGuardia {
+    height: 400px;
+    margin-left: 20px;
+}
+
+#hint {
+    padding: 10px 0;
+    height: 125px;
+    width: 625px;
+    margin-left: 25px;
+    display: block;
+}
+
+#hint h3 {
+    margin: 10px 0 10px 30px;
+}
+
+#hint p {
+    margin: 0 30px;
+}
+
+#brooklyn h3, #manhattan h3, #queens h3 {
+    visibility: hidden;
+    position: relative;
+    top: -255px;
+    color: #000;
+    margin: 0;
+}
+
+#brooklyn:hover img, #manhattan:hover img, #queens:hover img{
+    opacity: 0.3;
+}
+
+#brooklyn:hover h3, #manhattan:hover h3, #queens:hover h3{
+    visibility: visible;
+}
+
+#brooklyn {
+    width: 950px;
+    margin: auto;
+}
+
+#manhattan, #queens {
+    display: inline-block;
+    margin: 10px 30px 80px 0;
+}
+
+#queens {
+    margin-right: 0;
+}
+
+#simCard {
+    background-color: rgb(246,246,246);
+}
+
+#intro {
+    width: 550px;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    font-weight: lighter;
+}
+
+div.info {
+    width: 400px;
+    height: 550px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+div.info h3 {
+    margin-left: 0;
+}
+
+#email p {
+    font-size: 1.125em;
+    font-weight: lighter;
+}
+
+#email input {
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin: 5px 0;
+    border: none;
+    background-color: #f8f8f8;
+    text-indent: 10px;
+    font-size: 1em;
+}
+
+#email textarea {
+    display: block;
+    border: none;
+    background-color: #f8f8f8;
+    text-indent: 10px;
+    font-size: 1em;
+}
+
+#email input:last-child {
+    float: right;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: rgb(52,78,107);
+    border: none;
+    text-indent: 0;
+}
+
+#wechat {
+    margin-left: 100px;
+}
+
+#wechat .bar {
+    margin: 20px 0;
+    width: 60px;
+}
+
+#wechat p {
+    font-size: 1.5em;
+    color: rgb(52,78,107);
+}
+
+#contact {
+    padding-bottom: 0;
+}
+
+footer {
+    background-color: rgb(27,40,52);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
