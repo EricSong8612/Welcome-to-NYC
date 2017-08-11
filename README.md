@@ -6,4 +6,5 @@ The guide covers from departure preparation to local house rent. If needed, we a
 to help the new student adapt to NYC better and faster
 
 https://ericsong8612.github.io/Welcome-to-NYC/
-http://hydrographer-tuesday-50848.netlify.com/
+
+http://welcome-to-nyc.netlify.com/
